@@ -407,3 +407,20 @@ input {
     font-size: 1.6rem;
   }
 }
+
+/* Grids */
+.grid {
+  display: grid;
+}
+
+@media screen and (min-width: 768px) {
+  .grid--cols-two {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .grid--cols-three {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
