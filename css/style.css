@@ -429,6 +429,12 @@ input {
   bottom: 10px;
 }
 
+@media screen and (max-width: 412px) {
+  .quote {
+    margin: auto;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .quote {
     font-size: 2rem;
