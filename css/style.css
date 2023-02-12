@@ -736,7 +736,8 @@ input {
 }
 
 .feature__image {
-  width: 570px;
+  width: 100%;
+  max-width: 570px;
   object-fit: contain;
 }
 
